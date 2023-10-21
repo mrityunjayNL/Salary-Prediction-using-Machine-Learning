@@ -125,6 +125,6 @@ def show_predict_page():
         }
         df = pd.DataFrame(map_)
         salary = prepare_dataframe(df, model, label_encoders, scaler)
-        st.subheader(f"The estimated salary is ${salary[0]:.2f}")
+        st.subheader(f"The estimated annual salary is ${salary[0]:.2f}")
 
 show_predict_page()
