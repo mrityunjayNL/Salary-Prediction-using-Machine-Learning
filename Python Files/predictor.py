@@ -10,7 +10,7 @@ import pandas as pd
 from model_final import prepare_dataframe
 
 def load_model():
-    with open('./model/model_3.pkl', 'rb') as file:
+    with open('Model/model_3.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
